@@ -1,2 +1,19 @@
 # CleanedCAG_Zarakovitis
-This contains the texts from the CAG (Commentaria in Aristotelem Graeca) that were cleaned for the MSCA MECANO project (and beyond). The texts are Open Access.
+# Cleaned Greek Texts from the *Commentaria in Aristotelem Graeca* (CAG)
+
+This repository contains cleaned Open Access Greek texts of late ancient Aristotelian commentaries from the *Commentaria in Aristotelem Graeca* (CAG) series.
+
+This work is part of a research project funded by the European Union's Horizon Europe research and innovation programme under the Marie Skłodowska-Curie Actions (Grant Agreement No. 101120349), project name MECANO.
+
+## Repository Structure
+
+Each section contains three subdirectories:
+- `/plain-text/`: Clean Greek text stripped of line and page numbers (optimized for NLP, LLMs, and computational linguistics).
+- `/referenced-text/`: Greek text retaining original CAG page `(P.xxx)` and line `(xx)` numbers for academic citation.
+- `/JsonLine/`: Jsonline in Markdown files, ready for being run on PASSIM. Every Jsonline is one paragraph. 
+
+```text
+├── Categories_Isagoge/    # Porphyrius, Ammonius, Simplicius, Olympiodorus, Elias, David, etc.
+├── Metaphysics/            # Alexander of Aphrodisias, Asclepius, Syrianus
+└── Philoponus/             # Philoponus' individual commentaries (In Cat, In An. Pr., etc.)
+
