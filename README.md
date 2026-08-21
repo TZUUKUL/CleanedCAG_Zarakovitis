@@ -5,7 +5,7 @@ This repository contains cleaned Open Access Greek texts of late ancient Aristot
 
 The texts follow the style of the pages, where I have connected every split word in the first line that the word occurs.
 
-This work is part of a research project funded by the European Union's Horizon Europe research and innovation programme under the Marie Skłodowska-Curie Actions (Grant Agreement No. 101120349), project name MECANO.
+This work is part of a research project funded by the European Union's Horizon Europe research and innovation programme under the Marie Skłodowska-Curie Actions (Grant Agreement No. 101120349), project name MECANO (https://mecano-dn.eu/).
 
 ## Repository Structure
 
